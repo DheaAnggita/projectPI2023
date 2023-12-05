@@ -21,7 +21,7 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/dashboard-grid-custom.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -51,12 +51,12 @@
                     <span>Overview</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="project.html">
+                <a class="nav-link" href="overview.html">
                     <i class="fas fa-fw fa-file-alt"></i>
                     <span>My Project</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="donation.html">
+                <a class="nav-link" href="overview.html">
                     <i class="fas fa-fw fa-donate"></i>
                     <span>My Donation</span></a>
             </li>
@@ -96,7 +96,7 @@
                                     Add Project
                                 </button>
                             </div>
-
+                            <!-- </div> -->
                         </a>
                         </li>
                         <li class="nav-item dropdown no-arrow mx-1">
@@ -189,169 +189,104 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800">Overview</h1>
+                    <h1 class="h3 mb-4 text-gray-800">Donation</h1>
 
 
-                    <!-- grid-layout-css -->
+                    <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium
+                        iure assumenda ullam error repellat eligendi laboriosam, eos expedita quia!</p>
 
-                    <div class="angry-grid">
+                    <!-- DataTales Example -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>Campaign</th>
+                                            <th>Name</th>
+                                            <th>Nominal</th>
+                                            <th>Date</th>
 
-                        <!-- Earnings (Monthly) Card Example -->
-                        <div id="item-0">
-                            <div class="mb-4">
-                                <div class="card border-left-primary shadow py-2">
-                                    <div class="card-body">
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                    Give Donation</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
-                                            </div>
-                                            <div class="col-auto">
-                                                <i class="fas fa-hands-helping fa-2x text-gray-300"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Motor Terbang Dinamo RX King</td>
+                                            <td>Syahrul R</td>
+                                            <td>$320,800</td>
+                                            <td>2011/04/25</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>Baju Anti Kusut Anti Setrika</td>
+                                            <td>Denio G</td>
+                                            <td>$170,750</td>
+                                            <td>2011/07/25</td>
+
+                                        </tr>
+
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
-
-                        <!-- Earnings (Monthly) Card Example -->
-                        <div id="item-1">
-                            <div class="mb-4">
-                                <div class="card border-left-success shadow py-2">
-                                    <div class="card-body">
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                    Get Donation</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
-                                            </div>
-                                            <div class="col-auto">
-                                                <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Area Chart -->
-                        <div id="item-2">
-                            <div class="">
-                                <div class="card shadow mb-4">
-                                    <!-- Card Header - Dropdown -->
-                                    <div
-                                        class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                        <h6 class="m-0 font-weight-bold text-primary">Statistic Project</h6>
-                                    </div>
-                                    <!-- Card Body -->
-                                    <div class="card-body">
-                                        <div class="chart-bar">
-                                            <canvas id="myBarChart"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Popolar Post -->
-                        <div id="item-3">
-                            <div class="">
-                                <div class="card shadow mb-4">
-                                    <!-- Card Header - Dropdown -->
-                                    <div
-                                        class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                        <h6 class="m-0 font-weight-bold text-primary">Popular Projects</h6>
-                                    </div>
-                                    <!-- Card Body -->
-                                    <div class="card-body">
-                                        <div class="card shadow mb-1">
-                                            <a class="card-header py-2" href="#">
-                                                <h6 class="m-0 font-weight-bold text-primary">Lorem ipsum</h6>
-                                            </a>
-                                            <div class="card-body">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            </div>
-                                        </div>
-                                        <div class="card shadow mb-1">
-                                            <a class="card-header py-2" href="#">
-                                                <h6 class="m-0 font-weight-bold text-primary">Lorem ipsum</h6>
-                                            </a>
-                                            <div class="card-body">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            </div>
-                                        </div>
-                                        <div class="card shadow mb-1">
-                                            <a class="card-header py-2" href="#">
-                                                <h6 class="m-0 font-weight-bold text-primary">Lorem ipsum</h6>
-                                            </a>
-                                            <div class="card-body">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-
                     </div>
-                    <!-- /.container-fluid -->
+
+
+
 
                 </div>
-                <!-- End of Main Content -->
-
-                <!-- Footer -->
-                <footer class="sticky-footer bg-white">
-                    <div class="container my-auto">
-                        <div class="copyright text-center my-auto">
-                            <span>Copyright &copy; Girls 2023</span>
-                        </div>
-                    </div>
-                </footer>
-                <!-- End of Footer -->
+                <!-- /.container-fluid -->
 
             </div>
-            <!-- End of Content Wrapper -->
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Girls 2023</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
 
         </div>
-        <!-- End of Page Wrapper -->
+        <!-- End of Content Wrapper -->
 
-        <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded" href="#page-top">
-            <i class="fas fa-angle-up"></i>
-        </a>
+    </div>
+    <!-- End of Page Wrapper -->
 
-        <!-- Logout Modal-->
-        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                    <div class="modal-footer">
-                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                        <a class="btn btn-primary" href="login.html">Logout</a>
-                    </div>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
                 </div>
             </div>
         </div>
+    </div>
 
 
-        <!-- Core plugin JavaScript-->
-        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.2/dist/Chart.min.js"></script>
-
-        <!-- Custom scripts for all pages-->
-        <script src="js/sb-admin-2.js"></script>
-        <script src="js/chart-bar-demo.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.js"></script>
 
 
 </body>
