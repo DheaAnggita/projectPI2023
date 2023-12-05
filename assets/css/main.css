@@ -11,20 +11,17 @@
   .navbar .nav-link {
     font-size: 20px;
     margin-left: 10px;
-    color: black;
+    color: #F473B9;
   }
   .fa-bars {
     color: #ff0062;
     font-size: 30px;
   }
 
-/* button color */
-.btn-all{
-  background-color: #ff8158;
-}
+
   /* Form Modal */
   .modal-header, h4, .close {
-    color:white !important;
+    color:rgb(5, 5, 5) !important;
     text-align: center;
     font-size: 30px;
   }
@@ -71,7 +68,7 @@ section {
   font-weight: 700;
   padding: 8px 20px;
   margin: 0;
-  background: #ff8158;
+  background: #007bff;
   color: #FFE4E2;
   display: inline-block;
   text-transform: uppercase;
@@ -99,8 +96,28 @@ section {
   }
 }
 
+/*--------------------------------------------------------------
+# About Services
+--------------------------------------------------------------*/
+.section-daftar{
+  background-color: #77777729;
+}
+
+.act {
+  flex: 1 1;
+  text-align: center;
+ }
+
+.section-h2-about {
+  color:#111;
+  padding-left: 50px;
+}
 
 
+
+
+
+/* --------------------------------------------------------------- */
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
@@ -161,6 +178,25 @@ section {
 .featured-services .icon-box:hover .icon i {
   color: #fff;
 }
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #007bff;
+  color: #FFE4E2;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
 
 /*--------------------------------------------------------------
 # Contact
@@ -225,7 +261,7 @@ section {
   display: none;
   background: #fff;
   text-align: center;
-  padding: 15px;
+  padding: 15px; 
 }
 
 .contact .email-form .loading:before {
@@ -285,4 +321,300 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team {
+  padding: 60px 0;
+}
+
+.team .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
+}
+
+.team .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.team .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #222222;
+  margin: 0 3px;
+  padding-top: 7px;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  background: rgba(16, 110, 234, 0.8);
+  display: inline-block;
+  transition: ease-in-out 0.3s;
+  color: #fff;
+}
+
+.team .member .social a:hover {
+  background: #3b8af2;
+}
+
+.team .member .social i {
+  font-size: 18px;
+}
+
+.team .member .member-info {
+  padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #222222;
+}
+
+.team .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+
+.team .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+}
+
+.team .member:hover .social {
+  opacity: 1;
+  bottom: 15px;
+}
+
+.banner {
+  position: relative;
+    padding: 120px 0 205px 0;
+    background: var(--third);
+}
+
+.banner.content-banner {
+  box-sizing: border-box;
+}
+
+.banner .content-banner h2{
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  letter-spacing: -0.03rem;
+  margin: 15px 0 20px 0;
+}
+
+.section-subheading {
+  font-size: 1.125rem;
+    line-height: 1.4;
+    letter-spacing: 0.125rem;
+    color: var(--dark);
+} 
+
+.section-heading-sm {
+  color:#111;
+}
+
+/* Detail page  */
+
+.progressbar {
+  margin-top: 150px;
+}
+
+.pdetail{
+  margin-top: 20px;
+}
+
+
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 auto 15px auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+  padding: 2px 15px;
+}
+
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px 8px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #444444;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+  color: #106eea;
+}
+
+.portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio .portfolio-item .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+}
+
+.portfolio .portfolio-item .portfolio-info h4 {
+  font-size: 18px;
+  color: #0a0a0a;
+  font-weight: 600;
+  color: #222222;
+}
+
+.portfolio .portfolio-item .portfolio-info p {
+  color: #000;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.portfolio .portfolio-item .portfolio-info .preview-link,
+.portfolio .portfolio-item .portfolio-info .details-link {
+  position: absolute;
+  right: 40px;
+  font-size: 24px;
+  top: calc(50% - 18px);
+  color: #3c3c3c;
+}
+
+.portfolio .portfolio-item .portfolio-info .preview-link:hover,
+.portfolio .portfolio-item .portfolio-info .details-link:hover {
+  color: #106eea;
+}
+
+.portfolio .portfolio-item .portfolio-info .details-link {
+  right: 10px;
+}
+
+.portfolio .portfolio-item .portfolio-links {
+  opacity: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 3;
+  position: absolute;
+  transition: all ease-in-out 0.3s;
+}
+
+.portfolio .portfolio-item .portfolio-links a {
+  color: #fff;
+  margin: 0 2px;
+  font-size: 28px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.portfolio .portfolio-item .portfolio-links a:hover {
+  color: #6ba7f5;
+}
+
+.portfolio .portfolio-item:hover .portfolio-info {
+  opacity: 1;
+  bottom: 20px;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-details {
+  padding-top: 40px;
+}
+
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #106eea;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #106eea;
+}
+
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(34, 34, 34, 0.08);
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li+li {
+  margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
 }
