@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <title>OkeGirls</title>
-    <link rel="stylesheet" href="assets/css/detailProject.css">
+    <link rel="stylesheet" href="css/detailProject.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
             <nav class="navbar navbar-expand-lg fink-color w-100">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/logo.png" alt="Logo" width="130">
+                        <img src="img/logo.png" alt="Logo" width="130">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,15 +34,12 @@
                         <ul class="navbar-nav ms-auto pb-lg-0 pb-5">
                             <li class="nav-item">
                                 <ul class="navbar-nav ms-auto">
+                                    <li><a class="nav-link fw-bold" href="listProject.html">Mitra</a></li>
                                     <li class="nav-item">
-                                        <a class="nav-link border-sm-bottom fw-bold" href="listProject.html">Mitra</a></li>
-                                    <li class="nav-item">
-                                        <a class="nav-link border-sm-bottom fw-bold" href="#">Buat Project</a>
+                                        <a class="nav-link border-sm-bottom fw-bold" href="buat-project.html">Buat
+                                            Project</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <button class="btn blue-bg text-light login-btn h-100 fw-bold ">Login</button>
-                                    </li>
-
+                                    <li></li>
                                 </ul>
                             </li>
                         </ul>
@@ -51,7 +48,9 @@
                 </div>
 
             </nav>
-            
+            <button class="btn blue-bg text-light login-btn mt-2 h-100 fw-bold" id="loginButton"><a href="login.html"
+                    class="text-light text-decoration-none">Login</a></button>
+            <a href="overview.html" id="avatarButton"></a>
         </div>
     </div>
 
@@ -263,7 +262,8 @@
     <!-- <script src="assets/js/main.js"></script>
     <script> getAllProject()</script> -->
 
-    <script src="listProject.js"></script>
+    <script src="js/listProject.js"></script>
+    <script src="js/navbarLogin.js"></script>
 
 </body>
 
