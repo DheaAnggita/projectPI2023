@@ -1,0 +1,92 @@
+body {
+    padding-top: 50px;
+  }
+  
+  .navbar-toggler:focus {
+    box-shadow: #4E73DF 0px 0px 0px 1px;
+
+  }
+
+  .navbar-nav a {
+    border-top: 1px solid #4E73DF;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .navbar-nav a:hover {
+      background-color: #F473B9;
+      color: #FFDDEE;
+    }
+
+    .login-btn:hover {
+      background-color: #F473B9;
+      color: #FFDDEE;
+    }
+
+    .border-sm-bottom {
+      border-bottom: 1px solid #4E73DF;
+      
+    }
+
+  @media (min-width: 992px) {
+    .navbar-nav a {
+    border: none;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  }
+
+  .fink-color {
+    background-color: #FFDDEE;
+  }
+
+  .blue-bg {
+    background-color: #4E73DF;
+  }
+
+  .blue-text {
+    color: #4E73DF;
+  }
+
+  .btn-outline-blue {
+    border: 1px solid #4E73DF;
+    color: #4E73DF;
+  }
+
+  .btn-outline-blue:hover {
+    background-color: #4E73DF;
+    color: #ffff;
+  }
+
+  
+    /* Center content vertically */
+    .center-vertically {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .form-step {
+  display: none;
+  transform-origin: top;
+  animation: animate 0.5s;
+}
+
+.form-step-active {
+  display: block;
+}
+
+.progress-step {
+  background-color: #dcdcdc;
+}
+
+.progress-step-active {
+  background-color: #F473B9;
+  color: #f3f3f3;
+}
+
+.peng-bg {
+  background-color: #F473B9;
+}
