@@ -43,11 +43,8 @@
                             </li>
                         </ul>
                     </div>
-
                 </div>
-
             </nav>
-            <button class="btn blue-bg text-light login-btn mt-2 h-100 fw-bold">Login</button>
         </div>
     </div>
 
@@ -63,22 +60,35 @@
                     <!-- Form Register-->
                     <form>
                         <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                            <label for="nameRegis" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="nameRegis" placeholder="Enter your name">
                         </div>
 
                         <div class="mb-3">
-                            <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            <label for="emailRegis" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="emailRegis" placeholder="Enter your email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="passwordRegis" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="passwordRegis" placeholder="Enter your password">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="phoneNumberRegis" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="phoneNumberRegis" placeholder="Enter your phone number">
                         </div>
 
                         <div class="mb-5">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Enter your password">
-                        </div>
+                            <label for="profilePicRegis" class="form-label">Profile Picture</label>
+                            <div class="input-group">
+                              <span class="input-group-text" id="profilePicRegis">URL</span>
+                              <input type="text" class="form-control" id="profilePicRegis" aria-describedby="basic-addon3 basic-addon4">
+                            </div>
+                        </div>                        
 
                         <div class="d-grid">
-                            <button type="submit" class="btn blue-bg text-light fw-bold mb-3">Create account</button>
+                            <button id="btnRegis" type="submit" class="btn blue-bg text-light fw-bold mb-3">Create account</button>
                         </div>
 
                         <p class="text-center">Have an account? <a href="login.html">Login</a></p>
@@ -130,6 +140,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
+    <Script src="js/signup.js"></Script>
 </body>
 
 </html>
