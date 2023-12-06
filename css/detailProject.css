@@ -48,3 +48,11 @@ body {
   .blue-text {
     color: #4E73DF;
   }
+
+  .truncate-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Jumlah baris yang ingin ditampilkan */
+    -webkit-box-orient: vertical;
+  }
